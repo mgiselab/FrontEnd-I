@@ -1,0 +1,35 @@
+#LogoFE {
+width: 70px;
+height: 100 px;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        font-size: 50px;
+}
+section.banner{
+background-image: url(./img/lemon-pie.jpg);
+height: 250px;
+background-repeat: no-repeat;
+padding: 20px;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+section.ing{
+    background-color: beige;
+}
+h3, h2{
+    font-family: 'Dancing Script', cursive;
+}
+section.inst{
+    background-image: url(./img/Lemon2.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: right;
+    opacity: 0.5;
+    font-weight: bold;
+    }
