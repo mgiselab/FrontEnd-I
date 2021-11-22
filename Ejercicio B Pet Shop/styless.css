@@ -36,14 +36,11 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 30px;
-    
-    
+
+
 }
 
-.barramenu {
-   
-    
-}
+.barramenu {}
 
 .front {
     background-image: url(img/ppal.png);
@@ -55,11 +52,11 @@ body {
     height: 640px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    
 
-    }
 
-.titulo{
+}
+
+.titulo {
     position: absolute;
     width: 345px;
     height: 35px;
@@ -71,24 +68,26 @@ body {
     color: #3C2313;
 
 }
-.titulo2{
+
+.titulo2 {
     position: absolute;
     width: 190px;
     height: 19px;
     left: 1040px;
     top: 323px;
     font-size: 16px;
-    
+
 }
-.titulo3{
-    background-color:#F0A83E ;
+
+.titulo3 {
+    background-color: #F0A83E;
     position: absolute;
     width: 141px;
     height: 49px;
     left: 1067px;
     top: 374px;
     border-radius: 5px;
-    
+
 
 }
 
@@ -108,7 +107,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h2, h3 {
+h2,
+h3 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: black;
@@ -143,16 +143,16 @@ div.cajas {
     margin: 2%;
 }
 
-.botones{
+.botones {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     color: white;
     gap: 50px;
-    
-    
+
+
 }
 
-.boton1{
+.boton1 {
     background-color: #686766;
     border-radius: 25px;
     padding: 12px;
@@ -160,11 +160,12 @@ div.cajas {
     width: 110px;
     height: 34px;
     text-align: center;
-    
-    
-    
+
+
+
 }
-.boton2{
+
+.boton2 {
     background-color: #F0A83E;
     border-radius: 25px;
     padding: 12px;
@@ -172,13 +173,15 @@ div.cajas {
     width: 110px;
     height: 34px;
     text-align: center;
-    
+
 }
-.susc{
+
+.susc {
     position: relative;
-    right:300px;
-}    
-.ingresa{
+    right: 300px;
+}
+
+.ingresa {
     background-color: white;
     color: rgb(216, 216, 216);
     border-radius: 15px;
@@ -187,10 +190,10 @@ div.cajas {
     display: flex;
     align-items: center;
     padding-left: 15px;
-    
+
 }
 
-.suscrip{
+.suscrip {
     background-color: #F0A83E;
     display: flex;
     justify-content: space-between;
@@ -198,14 +201,16 @@ div.cajas {
     width: 100%;
     margin-top: 20px;
     padding: 25px;
-    
+
 }
-.suscripleft{
+
+.suscripleft {
     display: flex;
-    gap: 25px; 
+    gap: 25px;
     align-items: center;
-   }
-.mail{
+}
+
+.mail {
     background-color: white;
     color: black;
     border-radius: 15px;
@@ -213,8 +218,9 @@ div.cajas {
     height: 35px;
     padding: 6px;
 }
-.correo{
-    background-color:#3C2313 ;
+
+.correo {
+    background-color: #3C2313;
     border-radius: 15px;
     width: 100px;
     height: 35px;
@@ -222,31 +228,31 @@ div.cajas {
 
 }
 
-.pie{
-        color: white;
-        display: flex;
-        align-items: center;
-        gap: 10px;
- }
-footer{
+.pie {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer {
     background-color: #3C2313;
     padding: 15px;
-    }
-.info{
+}
+
+.info {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
-.loc{
-    
-}
-.tel{
 
-}
-.adress{
+.loc {}
 
-}
-.final{
+.tel {}
+
+.adress {}
+
+.final {
     background-color: #F0A83E;
     text-align: center;
 }
