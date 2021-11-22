@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
 }
 
-.cabecera{
+.cabecera {
     background-color: black;
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -12,65 +12,125 @@
     align-items: stretch;
     padding: 1em;
 }
-a.margen{
-    display:inline-block;
+
+a.margen {
+    display: inline-block;
     justify-content: flex-end;
     float: right;
     font-size: 12px;
     word-spacing: 1.4em;
-    }
-body{
+}
+
+body {
     margin: 0;
 }
+
 #portada {
     width: 100%;
-    }
-.naranja{
+}
+
+.naranja {
     background-color: #F0A83E;
-    font-family:'Roboto', sans-serif;
-    }
-.barra-menu {
-    font-family:'Roboto', sans-serif;
-    color: white;
-    justify-content: flex-end;
-    text-align: right;
-    word-spacing: 1.4em;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    
+    
+}
+
+
+.barramenu {
+   
+    
+}
+
+.front {
+    background-image: url(Imagenes/ppal.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1360px;
+    height: 640px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+
     }
 
-.letra-color {
-color: #F0A83E;
-font-weight: bold;
-text-align: center;
-font-family: 'Roboto', sans-serif;
+.titulo{
+    position: absolute;
+    width: 345px;
+    height: 35px;
+    left: 958px;
+    top: 246px;
+    font-size: 30px;
+    background-color: white;
+    padding: 5px;
+    color: #3C2313;
+
 }
-.subtitulo{
+.titulo2{
+    position: absolute;
+    width: 190px;
+    height: 19px;
+    left: 1040px;
+    top: 323px;
+    font-size: 16px;
+    
+}
+.titulo3{
+    background-color:#F0A83E ;
+    position: absolute;
+    width: 141px;
+    height: 49px;
+    left: 1067px;
+    top: 374px;
+    border-radius: 5px;
+    
+
+}
+
+.patacentral {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+}
+
+.letra-color {
+    color: #F0A83E;
+    font-weight: bold;
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
 
-.front{
-
-display: flex;
-flex-direction: row;
+h2, h3 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: black;
 }
 
-.prod{
+.prod {
     display: flex;
     justify-content: space-evenly;
-}
-h3{
-    font-family: 'Roboto', sans-serif;
-text-align: center;
+    margin-top: 2em;
 }
 
-div.cajas{
+
+div.cajas {
 
     width: 450px;
     height: 250px;
     font-size: 12px;
-    }
 
-.datos{
+}
+
+.datos {
     box-sizing: border-box;
     position: relative;
     left: 450px;
@@ -78,9 +138,116 @@ div.cajas{
     text-align: left;
     color: white;
     border-radius: 20px;
-    padding: 10px;
+    padding: 15px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    margin: 2%;
+}
+
+.botones{
+    display: flex;
+    justify-content:center;
+    color: white;
+    gap: 50px;
     
     
+}
+
+.boton1{
+    background-color: #686766;
+    border-radius: 25px;
+    padding: 12px;
+    font-size: 20px;
+    width: 110px;
+    height: 34px;
+    text-align: center;
+    
+    
+    
+}
+.boton2{
+    background-color: #F0A83E;
+    border-radius: 25px;
+    padding: 12px;
+    font-size: 20px;
+    width: 110px;
+    height: 34px;
+    text-align: center;
+    
+}
+.susc{
+    position: relative;
+    right:300px;
+}    
+.ingresa{
+    background-color: white;
+    color: rgb(216, 216, 216);
+    border-radius: 15px;
+    width: 278px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    
+}
+
+.suscrip{
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 25px;
+    
+}
+.suscripleft{
+    display: flex;
+    gap: 25px; 
+    align-items: center;
+   }
+.mail{
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    width: 350px;
+    height: 35px;
+    padding: 6px;
+}
+.correo{
+    background-color:#3C2313 ;
+    border-radius: 15px;
+    width: 100px;
+    height: 35px;
+    padding: 6px;
+
+}
+
+.pie{
+        color: white;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+ }
+footer{
+    background-color: #3C2313;
+    padding: 15px;
+    }
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.loc{
+    
+}
+.tel{
+
+}
+.adress{
+
+}
+.final{
+    background-color: #F0A83E;
+    text-align: center;
 }

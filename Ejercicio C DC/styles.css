@@ -1,0 +1,18 @@
+header{
+    position: sticky;
+    top: 0;
+}
+.cajaverde {
+    background-color: #1CD1B0;
+}
+
+.cajazul,
+footer {
+    background-color: #00669F;
+    height: 5em;
+}
+main{
+    position: relative;
+    justify-content: center;
+    margin: 50px;
+    align-items: flex-start;

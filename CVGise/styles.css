@@ -1,0 +1,66 @@
+h1 {
+        background-color: rgb(161, 134, 187);
+        color: white;
+        text-align: center;
+        font-family: 'Source Sans Pro', sans-serif;
+        letter-spacing: 8px;
+        text-align: end;
+        opacity: 80%;
+
+}
+
+h2 {
+        background-color: rgb(172, 82, 40);
+        opacity: 0.5;
+        color: white;
+        width: 50%;
+        font-family: 'Montserrat', sans-serif;
+}
+
+section {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+}
+
+header {
+        font-family: 'Montserrat', sans-serif;
+}
+
+#selector {
+        font-weight: bold;
+}
+
+.logocdv {
+        width: 200px;
+        height: 140px;
+
+}
+
+#dato {
+        background-color: gray;
+        opacity: 0.5S;
+
+}
+
+ul {
+        font-family: Verdana;
+        font-size: 18px;
+}
+
+footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        background-color: rgb(238, 236, 232);
+        color: black;
+}
+
+.fotomia {
+        position: absolute;
+        left: 70%;
+        top: 120px;
+        width: 200PX;
+        height: 200PX;
+}
