@@ -40,14 +40,13 @@ body {
     
 }
 
-
 .barramenu {
    
     
 }
 
 .front {
-    background-image: url(Img/ppal.png);
+    background-image: url(img/ppal.png);
     position: relative;
     background-repeat: no-repeat;
     background-position: center;
