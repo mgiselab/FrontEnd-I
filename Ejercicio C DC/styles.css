@@ -1,18 +1,69 @@
-header{
-    position: sticky;
-    top: 0;
-}
-.cajaverde {
-    background-color: #1CD1B0;
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.cajazul,
-footer {
-    background-color: #00669F;
-    height: 5em;
+header{
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25); 
+    height: 95px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    font-weight: bold;
+    color: white;
+    padding-left: 35px;
+    padding-top: 35px;
+    
 }
-main{
-    position: relative;
+body > p{
+    background-color: #1CD1B0;
+    height: 60px;
+    font-weight: bold;
+    padding: 20px;
+    padding-left: 35px;
+}
+
+header, footer{
+        background-color: #00669F;
+}
+
+article{
+    background-color: aquamarine;
+    height: 529px;
+    width: 300px;
+}
+
+
+section{
+    display: flex;
     justify-content: center;
-    margin: 50px;
-    align-items: flex-start;
+    gap: 20px;
+    
+}
+.fondobat{
+    height: 193px;
+    width: 300px;
+    border-radius: 5%;
+    padding: 100px;
+    z-index: 11;
+    }
+
+.carabat{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+   
+    left: 170px;
+    right: 10px;
+    top: 200px;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    color: white;
+  
+
+}
