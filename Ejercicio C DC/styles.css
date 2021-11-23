@@ -17,12 +17,13 @@ header{
     padding-top: 35px;
     
 }
-body > p{
+.verde{
     background-color: #1CD1B0;
-    height: 60px;
-    font-weight: bold;
-    padding: 20px;
-    padding-left: 35px;
+    top: 0;
+    margin: 0;
+    height: 45px;
+    font-weight: 900;
+
 }
 
 header, footer{
@@ -30,40 +31,69 @@ header, footer{
 }
 
 article{
-    background-color: aquamarine;
+    background-color:hsl(120, 29%, 88%, 50%);
+    border-radius: 35px;
     height: 529px;
     width: 300px;
+    position: relative;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 
 section{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 28px;
+    margin-top: 25px;
+    margin-bottom: 50px;
     
 }
 .fondobat{
     height: 193px;
     width: 300px;
-    border-radius: 5%;
-    padding: 100px;
-    z-index: 11;
-    }
+    
+}
 
 .carabat{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-   
-    left: 170px;
+   position: absolute;
+    left: 80px;
     right: 10px;
-    top: 200px;
+    top: 120px;
 }
+
+.batmanhist{
+    margin-top: 95px;
+    text-align: justify;
+    padding: 10px;
+}
+
 
 footer{
     width: 100%;
     text-align: center;
     color: white;
-  
+}
+
+h3{
+    font-weight:900;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+a{
+    text-align: center;
+    display: inline-block;
+    background-color: #00669f;
+    color: white;
+    width: 128px;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 15px;
+    position: absolute;
+    left: 84px;
 
 }
