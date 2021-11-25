@@ -28,20 +28,20 @@ div {
     display: block;
     background-color: rgb(70, 139, 167);
     color: white;
-    padding: 40px;
+    padding: 30px;
     margin-bottom: 10px;
     margin-top: 20px;
     margin-right: 20px;
-    ;
+    
 }
 
 .caja2 {
     display: block;
     background-color: rgb(40, 67, 131);
     color: white;
-    padding: 40px;
+    padding: 30px;
     margin-bottom: 10px;
-    margin-top: 35px;
+    margin-top: 20px;
     margin-right: 20px;
 
 }
@@ -50,9 +50,9 @@ div {
     display: block;
     background-color: #1a3e58;
     color: white;
-    padding: 40px;
+    padding: 30px;
     margin-bottom: 10px;
-    margin-top: 35px;
+    margin-top: 20px;
     margin-right: 20px;
 }
 
@@ -60,12 +60,21 @@ div {
     display: block;
     background-color: #1a3e58;
     color: white;
-    padding: 40px;
-    margin-bottom: 20px;
-    margin-top: 35px;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
     margin-right: 20px;
 }
 
+.caja5 {
+    display: block;
+    background-color: #1a3e58;
+    color: white;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
 .fot {
     background-color: #42D1D5;
     color: white;

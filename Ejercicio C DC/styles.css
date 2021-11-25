@@ -19,12 +19,13 @@ header{
 }
 .verde{
     background-color: #1CD1B0;
-    top: 0;
-    margin: 0;
+    padding: 1px;
     height: 45px;
     font-weight: 900;
-
+    position: relative;
+    width: 100%;
 }
+/*no puedo sacar el margen blanco del top*/
 
 header, footer{
         background-color: #00669F;
@@ -95,5 +96,7 @@ a{
     margin-top: 15px;
     position: absolute;
     left: 84px;
-
 }
+
+
+    @media (min-width: 460px);

@@ -1,0 +1,38 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+
+}
+header, footer{
+    background-color: black;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+h2{
+    padding: 35px;
+
+}
+nav{
+  color: aliceblue;
+  display: flex;
+  gap: 10%;
+  
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 65px;
+}
+.deli{
+    position: relative;
+}
+
