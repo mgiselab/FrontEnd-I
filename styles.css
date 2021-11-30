@@ -16,12 +16,12 @@ main {
 }
 
 div {
+    background-image: url(img/4863446.jpg);
     display: flex;
     flex-direction: row-reverse;
-    background-image: url(img/4863446.jpg);
     background-size: cover;
     text-align: center;
-    align-items: flex-end;
+    
 }
 
 .caja1 {
@@ -29,9 +29,7 @@ div {
     background-color: rgb(70, 139, 167);
     color: white;
     padding: 30px;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    margin-right: 20px;
+    margin: 10px;
     
 }
 
@@ -40,9 +38,7 @@ div {
     background-color: rgb(40, 67, 131);
     color: white;
     padding: 30px;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    margin-right: 20px;
+    margin: 10px;
 
 }
 
@@ -51,32 +47,46 @@ div {
     background-color: #1a3e58;
     color: white;
     padding: 30px;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    margin-right: 20px;
+    margin: 10px;
+    
 }
 
 .caja4 {
     display: block;
-    background-color: #1a3e58;
+    background-color: #296ea0;
     color: white;
     padding: 30px;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    margin-right: 20px;
+    margin: 10px;
+    
+    
+
 }
 
 .caja5 {
     display: block;
+    background-color: #456e69;
+    color: white;
+    padding: 30px;
+    margin: 10px;
+    
+}
+.caja6 {
+    display: block;
+    background-color: #5ecace;
+    color: white;
+    padding: 30px;
+    margin: 10px;
+    
+}.caja7 {
+    display: block;
     background-color: #1a3e58;
     color: white;
     padding: 30px;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    margin-right: 20px;
+    margin: 10px;
+    
 }
 .fot {
-    background-color: #42D1D5;
+    background-color: #1ab6bb;
     color: white;
     padding: 1em;
     display: flex;

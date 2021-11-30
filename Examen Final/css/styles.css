@@ -1,0 +1,422 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15%;
+    align-items: center;
+}
+
+.menu-ppal {
+    display: none;
+}
+
+header button {
+    display: none;
+}
+
+.bring {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.subt1,
+.text2,
+.text2-3 {
+    font-weight: 400;
+    color: #B3B2B7;
+    line-height: 26px;
+    text-align: justify;
+    margin: 29px;
+    font-size: ;
+}
+
+.bring h2 {
+    text-align: center;
+    color: #232851;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    line-height: 38px;
+    margin-bottom: 25px;
+
+}
+
+.bring img {
+    width: 90%;
+    margin-bottom: 15px;
+
+}
+
+button {
+    background-color: #F3603C;
+    color: white;
+    margin-right: 165.46px;
+    border-radius: 50px;
+    width: 134px;
+    height: 44px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 0px 7px 9px rgba(242, 95, 58, 0.25);
+    border: none;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.what {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.what h2 {
+    text-align: center;
+    color: #232851;
+    font-size: 28px;
+    line-height: 35px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+
+.text2 {
+    padding: 5%;
+    margin: 10%;
+    font-size: 13px;
+}
+
+span.nro {
+    display: flex;
+
+    justify-content: center;
+    border-radius: 15px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+span {
+    background-color: red;
+    width: 60Px;
+
+}
+
+.text2-3 dl {
+    display: flex;
+    color: rgb(35, 44, 81);
+    text-align: center;
+    font-weight: 700;
+    text-align: left;
+    background-color: rgba(242, 95, 58, 0.17);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+
+}
+
+.text2-3 dt {
+    margin: 5%%;
+    font-size: 13px;
+    text-align: left;
+}
+
+.test1 {
+    display: none;
+}
+
+article p {
+    font-weight: 700;
+    text-align: center;
+    margin: 15px;
+}
+
+.text4 {
+    text-align: center;
+}
+
+.test2 img {
+    margin-top: 55px;
+    width: 15%;
+}
+
+.test2 p {
+    background-color: rosybrown;
+    font-weight: 500;
+    text-align: center;
+    font-size: ;
+
+}
+
+.testimonios button {}
+
+.naranja {
+    background-color: rgb(242, 95, 58);
+    color: white;
+    font-size: 320%;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 30%;
+    padding-bottom: 30%;
+
+}
+
+.naranja button {
+    background-color: white;
+    color: #F3603C;
+    font-weight: 600;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+    background-color: black;
+
+}
+
+footer .menues {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 10%;
+}
+
+.menuA ul li a,
+.menuB ul li a {
+    color: white;
+    font-size: 13px;
+    font-weight: 100px;
+    letter-spacing: 2px;
+    line-height: 35px;
+}
+
+.redes {
+    display: block;
+    flex-direction: row-reverse;
+    text-align: center;
+    padding: 15px;
+}
+
+.last .icon {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 50px;
+}
+
+.logopie {
+    padding: 15%;
+    text-align: center;
+}
+
+.last {
+    color: rgb(255, 255, 255, 0.25);
+    text-align: center;
+    padding: 20%;
+}
+
+@media screen and (min-width: 376px) {
+    header .hamburguer {
+        display: none;
+    }
+
+    header {
+        padding: 10%;
+        margin-left: 40px;
+        margin-right: 0px;
+    }
+
+    .botorange {
+        padding: 10px;
+    }
+
+    .menu-ppal {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 160px;
+    }
+
+    header button {
+        display: inline;
+    }
+
+    header ul {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+    }
+
+    .bring {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .text1 h2 {
+        font-size: 75px;
+        line-height: 66.47px;
+        text-align: left;
+        margin-left: 155px;
+    }
+
+    .img1 {
+        width: 80%;
+    }
+
+    .subt1 {
+        margin-left: 155px;
+        font-size: 27px;
+        margin-right: 150px;
+
+    }
+
+    .text1 button {}
+
+    .what {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .text2-3 {
+        margin-top: 150px;
+    }
+
+    .text2-3 dl {
+        display: flex;
+        background-color: white;
+        text-align: center;
+        font-weight: 700;
+        font-size: 20px;
+        gap: 25px;
+        text-align: left;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        margin-top: 25px;
+    }
+
+    .text2-3 dt {
+        padding: 20px;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    span {
+        background-color: #F3603C;
+        width: 100Px;
+        height: 35px;
+        align-items: center;
+
+    }
+.text2 h2{
+    font-size: 46px;
+    line-height: 41.26px ;
+    text-align: left;
+}
+.testimonios{
+    
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonios h2{
+    font-size: 36px;
+    color:rgb(35, 44, 81)
+}
+
+.test1, .test3{
+    display: inline;
+}
+.text4{
+display: flex;
+justify-content: space-between;
+margin-top: 10%;
+align-items: center;
+}
+.text4 article img{
+width: 25%;
+}
+
+.test2 img {
+    margin-top: 0px;
+    
+   
+}
+
+.test1, .test2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    color: #B3B2B7;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25.6px;
+}
+
+span, .text4 p{
+background-color: white;
+padding: 15px;
+}
+.text4 span{
+    margin: 15px;
+    width: 150px;
+    font-size: 600;
+    color: rgb(35, 44, 81);
+}
+
+
+.naranja {
+    background-color: rgb(242, 95, 58);
+    color: white;
+    font-size: 320%;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+display: flex;
+justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+}
+
