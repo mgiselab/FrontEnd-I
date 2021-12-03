@@ -3,6 +3,12 @@
     text-decoration: none;
     font-family: 'Be Vietnam Pro', sans-serif;
     margin: 0;
+    padding: 0;
+    ;
+}
+
+body {
+    width: 100%;
 }
 
 header {
@@ -11,6 +17,7 @@ header {
     flex-wrap: wrap;
     padding: 15%;
     align-items: center;
+    
 }
 
 .menu-ppal {
@@ -37,7 +44,7 @@ header button {
     line-height: 26px;
     text-align: justify;
     margin: 29px;
-    font-size: ;
+
 }
 
 .bring h2 {
@@ -57,9 +64,8 @@ header button {
 
 }
 
-button {
+.botorange {
     background-color: #F3603C;
-    color: white;
     margin-right: 165.46px;
     border-radius: 50px;
     width: 134px;
@@ -70,37 +76,24 @@ button {
     border: none;
 }
 
-button a {
-    text-decoration: none;
+.botorange a {
     color: white;
 }
 
-.what {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-
-}
 
 .what h2 {
     text-align: center;
     color: #232851;
-    font-size: 28px;
+    font-size: 30px;
     line-height: 35px;
     font-weight: 600;
     margin-bottom: 25px;
     margin-top: 5px;
 }
 
-.text2 {
-    padding: 5%;
-    margin: 10%;
-    font-size: 13px;
-}
 
 span.nro {
     display: flex;
-
     justify-content: center;
     border-radius: 15px;
     color: white;
@@ -108,33 +101,33 @@ span.nro {
     text-align: center;
 }
 
-span {
-    background-color: red;
-    width: 60Px;
-
-}
-
 .text2-3 dl {
     display: flex;
     color: rgb(35, 44, 81);
+
+
     text-align: center;
     font-weight: 700;
     text-align: left;
     background-color: rgba(242, 95, 58, 0.17);
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-
-
 }
 
 .text2-3 dt {
-    margin: 5%%;
+    margin-bottom: 30px;
+    margin-top: 15px;
     font-size: 13px;
     text-align: left;
+    padding-top: 10px;
+
 }
 
-.test1 {
-    display: none;
+.text2-3 span {
+    background-color: rgb(242, 95, 58);
+    height: 35px;
+    text-align: center;
+
 }
 
 article p {
@@ -144,45 +137,107 @@ article p {
 }
 
 .text4 {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    gap: 50px;
+    margin-top: 45px;
 }
 
-.test2 img {
-    margin-top: 55px;
-    width: 15%;
+.test1,
+.test2,
+.test3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
-.test2 p {
-    background-color: rosybrown;
-    font-weight: 500;
+span {
+    width: 60px;
     text-align: center;
-    font-size: ;
 
 }
 
-.testimonios button {}
+.testimonios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text4 span {
+    font-weight: 600;
+    width: 100px;
+    margin-top: 10%;
+}
+
+.text4 p {
+    color: #B9B9C1;
+    font-weight: 100;
+}
+
+.testimonios .botorange {
+    margin: 15%;
+}
 
 .naranja {
     background-color: rgb(242, 95, 58);
     color: white;
-    font-size: 320%;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 600;
     text-align: center;
-    padding-top: 30%;
-    padding-bottom: 30%;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 45px;
+    padding-bottom: 45px;
 
 }
 
-.naranja button {
+.alreves {
     background-color: white;
-    color: #F3603C;
-    font-weight: 600;
-    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    width: 134px;
+    height: 44px;
+    padding: 10px;
+    margin-top: 100px;
+    box-shadow: 0px 7px 9px rgba(242, 95, 58, 0.25);
+    border: none;
+}
+
+.alreves a {
+    color: rgb(242, 95, 58);
 }
 
 footer {
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
+footer .form {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.form .email,
+.send {
+    height: 40PX;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.form .email {
+    width: 220PX;
+}
+
+.form .send {
+    width: 75px;
+    text-align: center;
+    background-color: rgb(242, 95, 58);
+    color: white;
+    border: none;
 }
 
 footer .menues {
@@ -190,6 +245,9 @@ footer .menues {
     justify-content: space-between;
     text-align: left;
     padding: 10%;
+    gap: 15px;
+
+
 }
 
 .menuA ul li a,
@@ -201,39 +259,49 @@ footer .menues {
     line-height: 35px;
 }
 
-.redes {
-    display: block;
-    flex-direction: row-reverse;
-    text-align: center;
-    padding: 15px;
-}
-
-.last .icon {
+.icon {
     display: flex;
-    justify-content: space-between;
-    text-align: center;
-    padding: 50px;
-}
+    justify-content: center;
+    gap: 10%;
+    margin-top: 15px;
 
-.logopie {
-    padding: 15%;
-    text-align: center;
 }
 
 .last {
     color: rgb(255, 255, 255, 0.25);
     text-align: center;
-    padding: 20%;
+    padding: 15%;
+    font-size: 13px;
+    position: relative;
+    height: 200px;
 }
 
-@media screen and (min-width: 376px) {
+.last p {
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    text-align: center;
+}
+
+.last img {
+    height: 30px;
+}
+
+
+
+
+@media screen and (min-width: 376px) /**************************/
+
+
+
+{
     header .hamburguer {
         display: none;
     }
 
     header {
         padding: 10%;
-        margin-left: 40px;
+        
         margin-right: 0px;
     }
 
@@ -242,10 +310,10 @@ footer .menues {
     }
 
     .menu-ppal {
+        width: 60vw;
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
-        gap: 160px;
+        gap: 55px;
     }
 
     header button {
@@ -256,6 +324,7 @@ footer .menues {
         display: flex;
         justify-content: space-between;
         gap: 50px;
+          
     }
 
     .bring {
@@ -273,7 +342,7 @@ footer .menues {
     }
 
     .img1 {
-        width: 80%;
+        width: 60%;
     }
 
     .subt1 {
@@ -282,13 +351,11 @@ footer .menues {
         margin-right: 150px;
 
     }
-
-    .text1 button {}
-
     .what {
         display: flex;
         flex-direction: row;
         text-align: center;
+        
     }
 
     .text2-3 {
@@ -325,6 +392,10 @@ footer .menues {
     font-size: 46px;
     line-height: 41.26px ;
     text-align: left;
+    margin-left: 65px;
+}
+.text2 p{
+    margin-left: 70px;
 }
 .testimonios{
     
@@ -348,17 +419,17 @@ justify-content: space-between;
 margin-top: 10%;
 align-items: center;
 }
+
 .text4 article img{
 width: 25%;
 }
 
 .test2 img {
     margin-top: 0px;
-    
-   
+
 }
 
-.test1, .test2{
+.test1, .test2, .test3{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -371,7 +442,7 @@ width: 25%;
 
 span, .text4 p{
 background-color: white;
-padding: 15px;
+padding: 17px;
 }
 .text4 span{
     margin: 15px;
@@ -379,7 +450,6 @@ padding: 15px;
     font-size: 600;
     color: rgb(35, 44, 81);
 }
-
 
 .naranja {
     background-color: rgb(242, 95, 58);
@@ -389,34 +459,100 @@ padding: 15px;
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
-    padding-left: 15px;
+    padding-left: 62px;
     display: flex;
     justify-content: space-between;
 }
+.naranja p{
+    width: 600px;
+    text-align: left;
+    
+}
+.what{
+    display: flex;
+    text-align: center;
+    margin-top: 8vw;
+    gap: 6vw;
+    margin-left: 5vw;
+}
+
+.text2-3{
+    margin: 0%;
+    padding-right: 5vw;
+    width: 70vw;
+  
+}
+.text4{
+    flex-direction: row;
+}
+
+.testimonios .botorange{
+    margin: 5vw;
+}
+
+
+.alreves{
+    margin-left: 0px;
+    align-items: center;
+    margin-right: 170px;
+    margin-top: 30px;
+    box-shadow: 0px 7px 9px rgb(209, 153, 138);
+   
+}
 
 footer{
-display: flex;
-justify-content: space-between;
+    height: 20vw;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    
+}
+
+footer section{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    width: 18vw;
+    height: 190px;
+    position: relative;
+}
+
+footer .form{
+    align-items: flex-start;
+    margin-top: 5vw;
+   
+}
+.form{
+    width: 475px;
+}
+.email{
+    margin-right: 15px;
+}
+footer .menues{
+    display: flex;
+    align-content: center;
+    padding: 60px;
+    gap: 80px;
+    
+    
+}
+.last{
+    position: absolute;
+    top: 2vw;
+    padding: 45px;
+}
+.last p{
+    width: 260px;
+    left: 800px;
+}
+
+.menuA, .menuB{
+    position: relative;
+   
+}
+
 }
 
 
 
-
-
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-}
 
