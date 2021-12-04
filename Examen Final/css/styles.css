@@ -4,7 +4,7 @@
     font-family: 'Be Vietnam Pro', sans-serif;
     margin: 0;
     padding: 0;
-    ;
+    
 }
 
 body {
@@ -76,9 +76,12 @@ header button {
     border: none;
 }
 
+
+
 .botorange a {
     color: white;
 }
+
 
 
 .what h2 {
@@ -304,6 +307,13 @@ footer .menues {
         
         margin-right: 0px;
     }
+    
+.botorange:hover{
+    background-color: rgb(209, 202, 201);
+    border: solid 4px #eb937d;
+    transition: background-color 0.7s
+}
+
 
     .botorange {
         padding: 10px;
@@ -533,8 +543,6 @@ footer .menues{
     align-content: center;
     padding: 60px;
     gap: 80px;
-    
-    
 }
 .last{
     position: absolute;
@@ -545,11 +553,16 @@ footer .menues{
     width: 260px;
     left: 800px;
 }
-
 .menuA, .menuB{
     position: relative;
    
 }
+
+
+
+
+
+
 
 }
 
