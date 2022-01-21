@@ -17,6 +17,7 @@ header{
     align-items: center;
     padding: 15px;
     height: 100px;
+    width: 100vw;
     background-color: rgb(27, 121, 149);
     color: white;
     font-family: 'Dongle', sans-serif;
@@ -40,7 +41,7 @@ header{
 
 main{
    background-image: url(img/4863446.jpg);
-   height: 580px;
+   height: 50vw;
    background-position: center;
    background-size: cover;
 }
