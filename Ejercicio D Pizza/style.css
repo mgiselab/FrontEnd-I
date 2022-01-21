@@ -1,5 +1,7 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+    
     
 }
 header, footer{
@@ -17,9 +19,13 @@ header{
 
 .logo{
     display: flex;
-    align-content: center;
     gap: 20px
 }
+
+.logo h2 {
+    padding: 22px;
+}
+
 nav{
   color: aliceblue;
   display: flex;
@@ -37,24 +43,36 @@ main{
     margin-top: 65px;
     padding-left: 55px;
     padding-right: 95px;
+    margin-bottom: 65px;
 
 }
 
+div ol{
+    margin-top: 15px;
+}
 
+.envio{
+    position: absolute;
+    margin-top: -345px;
+    margin-left: 90px;
+    font-size: 18px;
+    font-weight: bold;
+}
 .podio{
    display: flex;
    justify-content: center;
    flex-direction: column;
+   align-items: center;
+   
 }
 
 .podio p{
     font-size: 25px;
     text-align: center;
-    margin-top: 1px;
+    margin-top: 12px;
     font-weight: bold;
-    margin-right: 55px;
+    margin-right: 16px;
 }
-
 
 footer{
     display: flex;
@@ -66,5 +84,8 @@ footer{
 footer div{
     display: flex;
     gap: 25px;
+}
 
+footer h2{
+    padding: 25px;
 }

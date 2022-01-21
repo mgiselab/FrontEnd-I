@@ -10,42 +10,46 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="styless.css">
+    <title>PetShop</title>
 </head>
-<div class="cabecera"> <a>Grandes ofertas en comederos</a>
-    <a class="margen">Español ARG</a>
-</div>
 
 <body>
-    <main>
-        <div class="naranja">
+
+    <header>
+        <div class="barrasup">
+            <p>Grandes ofertas en comederos</p>
+            <ul>
+                <li>Español</li>
+                <li>Argentina</li>
+            </ul>
+        </div>
+        <section class="naranja">
             <h2><img src="img/Cat.png" alt="gatito"> Front<font color="white">Cat&Dog
                     <img src="img/Dog.png" alt="perrito"></h2>
             <section>
                 <nav class="barramenu">
-
                     <ul type="none">
                         <a><i class="fas fa-paw"></i> Categorias</a>
                         <a><i class="fas fa-paw"></i> Pets</a>
                         <a><i class="fas fa-paw"></i> Nosotros</a>
                         <a><i class="fas fa-paw"></i> Contáctenos</a>
                     </ul>
-
                 </nav>
-        </div>
+            </section>
+    </header>
+
+    <main>
+        
+        <section class="banner-conten">
+            <div class="front">
+                <h2>Es un placer tenerte aqui!</h2>
+                <p>¡Comederos en descuento!</p>
+                <button class="botom">COMEDEROS</button>
+            </div>
         </section>
-
-
-        <div class="front">
-            <span class="titulo">Es un placer tenerte aqui! </span><br><br>
-
-            <span class="titulo2">¡Comederos en descuento!</span> <br>
-            <button class="titulo3">COMEDEROS</button>
-            <br>
-        </div>
-        </section>
-
+<section class="articulos">
         <div class="patacentral">
-            <img src="img/1.png" width="120" height="120" align-content="center" alt=" patacentral">
+            <img src="img/pawprint 1.png" width="120" height="120" align-content="center" alt=" patacentral">
         </div>
         <section>
             <h2 class="subtitulo">Productos Destacados</h2>
@@ -68,23 +72,22 @@
                 </article>
             </section>
         </section>
-        <br>
-        <br>
-        <br>
-        <h3>CONTACTANOS</h3>
-        <br>
-        <br>
+ </section>     
 
-        <div class="cajas">
-            <p class="datos">Nombre y apellido</p>
-            <p class="datos">Ingresa tu correo electronico</p>
-            <p class="datos">Contactanos</p>
-            <p class="datos">telefono</p>
-        </div>
-        <div class="botones">
-            <span class="boton1">Resetear</span>
-            <span class="boton2">Enviar</span>
-        </div>
+<section class="contacto">
+        <h2>CONTACTANOS</h2>
+    
+        <form class="form" action="submit">
+            <input type="text" placeholder="Nombre y apellido">           
+            <input type="email" placeholder="Ingresa tu email">
+            <input type="number" placeholder="Telefono">
+                <div class="botones">
+                    <a href="#" class="boton1">Resetear</a>
+                    <a href="#" class="boton2">Enviar</a>
+                </div>
+        </form>
+</section>
+
         <div class="suscrip">
             <h2 class="pie"><img src="img/mail.png">
                 Suscríbete para más novedades</h2></a>
@@ -94,30 +97,43 @@
             </span>
         </div>
         <footer>
-            <div class="info">
-                <div class="loc">
-                    <img src="img/Icono.png" alt="">
-                    <h4>Localidad</h4>
-                    <h4>Calle-Provincia</h4>
-                    <div class="tel">
-                        <img src="img/Icono (1).png" alt="">
-                        <span>Teléfono</span>
-                        <span>Número de teléfono</span>
-                    </div>
-                    <div class="adress">
-                        <img src="img/Icono (2).png" alt="">
-                        <span>Correo electrónico</span>
-                        <span>Dirección de correo</span>
-                    </div>
-                    <a class="fotlogo"><img src="img/Cat.png" alt="gatito"> Front<FONT COLOR="white">Cat&Dog </FONT>
-                        <img src="img/Dog.png" alt="perrito"></h2>
-                    </a>
+<div class="info-pie">
+    <div class="conten2">
+            <div class="local">
+                <img src="img/Icono.png" alt="">
+            
+                <div><h5>Localidad</h5>
+                    <h6>Calle-Provincia</h6>
                 </div>
+            </div> 
+        
+            <div class="tel">
+                <img src="img/Icono (1).png" alt="">
+                
+            <div><h5>Teléfono</h5>
+                    <h6>Número de teléfono</h6>
+                </div>
+            </div>     
+        
+            <div class="adress">
+                    <img src="img/Icono (2).png" alt="">
+                    
+                <div><h5>Correo electrónico</h5>
+                    <h6>Dirección de correo</h6>
+                </div>
+            </div>     
             </div>
+            <div class="logo-footer">
+                <a class="fotlogo"><img src="img/Cat.png" alt="gatito"> Front<FONT COLOR="white">Cat&Dog </FONT>
+                        <img src="img/Dog.png" alt="perrito"></h2>
+                </a>
+            </div>
+</div>
             <img src="img/Logo footer .png" alt="">
-        </footer>
+        
         <p class="final">Todos los derechos reservados - Gise </p>
-    </main>
+    </footer>
+</main>
 </body>
 
 </html>

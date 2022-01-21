@@ -1,96 +1,91 @@
 * {
-    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0%;
     box-sizing: border-box;
-    margin-top: 0%;
+    
 }
 
-main {
-    background-color: #42D1D5;
-    color: white;
-    padding: 1em;
+.logo img{
+    width: 75px;
+    height: 75px;
+}
+
+header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.5em;
-
+    padding: 15px;
+    height: 100px;
+    background-color: rgb(27, 121, 149);
+    color: white;
+    font-family: 'Dongle', sans-serif;
 }
 
-div {
-    background-image: url(img/4863446.jpg);
+.logo{
     display: flex;
-    flex-direction: row-reverse;
-    background-size: cover;
-    text-align: center;
-    
+    gap: 25px;
 }
 
-.caja1 {
-    display: block;
-    background-color: rgb(70, 139, 167);
-    color: white;
-    padding: 30px;
-    margin: 10px;
-    
+.logo div{
+    margin-top: 20px;
+    font-weight:bold;
 }
 
-.caja2 {
-    display: block;
-    background-color: rgb(40, 67, 131);
-    color: white;
-    padding: 30px;
-    margin: 10px;
-
+.menu nav ul{
+    display: flex;
+    gap: 15px;
+    list-style:none;
 }
 
-.caja3 {
-    display: block;
-    background-color: #1a3e58;
-    color: white;
-    padding: 30px;
-    margin: 10px;
-    
+main{
+   background-image: url(img/4863446.jpg);
+   height: 580px;
+   background-position: center;
+   background-size: cover;
 }
 
-.caja4 {
-    display: block;
-    background-color: #296ea0;
-    color: white;
-    padding: 30px;
-    margin: 10px;
-    
-    
-
+.atajos{
+   display: flex;
+   flex-direction: column;
+   width: 150px;
+   gap: 15px;
+   margin-top: 45px;
+   float: right;
+   margin-right: 55px; 
 }
 
-.caja5 {
-    display: block;
-    background-color: #456e69;
-    color: white;
-    padding: 30px;
-    margin: 10px;
-    
+button{
+    background-color: rgb(27, 121, 149);
+    border: beige;
+    border-radius: 5px;
+    height: 35px;
 }
-.caja6 {
-    display: block;
-    background-color: #5ecace;
+
+.atajos a{
     color: white;
-    padding: 30px;
-    margin: 10px;
-    
-}.caja7 {
-    display: block;
-    background-color: #1a3e58;
-    color: white;
-    padding: 30px;
-    margin: 10px;
-    
+    font-family: 'Dongle', sans-serif;
 }
-.fot {
-    background-color: #1ab6bb;
-    color: white;
-    padding: 1em;
+
+button:hover {
+background-color: rgb(13, 42, 70);
+}
+
+a:hover{
+    color: rgb(66, 201, 255);
+}
+
+footer{
+    background-color: rgb(99, 145, 163);
+    height: 55px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    color: white;
+}
 
-
+.pie{
+    background-color: white;
+    width: 85px;
+    margin: 5px;
 }

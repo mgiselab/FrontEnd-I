@@ -57,14 +57,28 @@ section{
 }
 
 .carabat{
+
     width: 150px;
     height: 150px;
     border-radius: 50%;
-   position: absolute;
+    position: absolute;
     left: 80px;
     right: 10px;
     top: 120px;
 }
+
+a:hover {filter: opacity(.5);}
+
+.conten:hover .coraz {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.conten {overflow:hidden;}
+
+.coraz {
+    width: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
 
 .batmanhist{
     margin-top: 95px;
