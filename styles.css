@@ -37,6 +37,7 @@ header{
     display: flex;
     gap: 15px;
     list-style:none;
+    margin-right: 25px;
 }
 
 main{
