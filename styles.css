@@ -40,10 +40,10 @@ header{
 }
 
 main{
-   background-image: url(img/4863446.jpg);
-   height: 50vw;
-   background-position: center;
-   background-size: cover;
+    background-image: url(img/4863446.jpg);
+    height: 50vw;
+    background-position: center;
+    background-size: cover;
 }
 
 .atajos{
